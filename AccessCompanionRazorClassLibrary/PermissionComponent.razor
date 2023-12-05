@@ -1,0 +1,12 @@
+﻿<h3>PermissionComponent</h3>
+
+@code {
+    private class Permission{
+        public string EmployeeForeame { get; set; }
+        public string EmployeeSurname { get; set; }
+        public int Type { get; set; }
+        //prublic Date Date { get; set;}
+    }
+    private List<Permission> permissions = new();
+    private Permission permission = new();
+}
